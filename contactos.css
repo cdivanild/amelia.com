@@ -1,0 +1,33 @@
+body{
+
+	margin: 0;
+	padding: 0;
+}
+
+.toppp{
+
+	height: 50px;
+	background-color: #8888;
+	line-height: 50px;
+	text-align: center;
+	font-size: 25px;
+	color: #000000;
+}
+
+.xico{
+
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.xico h1{
+
+	text-align: center;
+	
+}
+
+
+.xico p{
+
+	text-align: center;
+}

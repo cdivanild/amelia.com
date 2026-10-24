@@ -1,0 +1,138 @@
+/*Inicio de produtos*/
+
+body{
+
+   margin: 0;
+   padding: 0;
+   background: #0a5897d1;
+   font-family: Nirmala UI;
+}
+
+.acima{
+
+   height: 50px;
+   background-color: #03a9f4;
+   font-size: 25px;
+   line-height: 50px;
+   text-align: center;
+}
+
+.cont{
+
+   display: flex;
+   justify-content: space-around;
+   color: #FFFFFF;
+   font-size: 20px;
+   margin-left: 51px;
+}
+
+.cont h1{
+
+   font-size: 30px;
+   color: #000000;
+   margin-right: 70px;
+   text-align: center;
+}
+
+.cont p{
+
+   font-size: 20px;
+   color: #000000;
+   margin-right: 70px;
+   text-align: center;
+}
+.bolos{
+
+   background-color: red;
+   height: 50px;
+
+}
+
+.cont2{
+
+   display: flex;
+   justify-content: space-around;
+   color: #FFFFFF;
+   font-size: 20px;
+   margin-left: 51px;
+}
+
+.cont2 h1{
+
+   font-size: 30px;
+   color: #000000;
+   margin-right: 70px;
+   text-align: center;
+}
+
+.cont2 p{
+
+   font-size: 20px;
+   color: #000000;
+   margin-right: 70px;
+   text-align: center;
+}
+
+@media only screen and (max-width: 743px){
+
+    .acima{
+
+      width: 1425px;
+      height: 50px;
+    }
+
+    .cont{
+
+      display: flex;
+      justify-content: space-evenly;
+      margin-left: 13px;
+    }
+
+    .cont img{
+
+      width: 340px;
+      height: 350px;
+      margin-right: 12px;
+    }
+
+    .prodt h1{
+
+      font-size: 40px;
+      margin-right: -4px;
+    }
+
+
+    .prodt p{
+
+      font-size: 30px;
+      margin-right: -4px;
+    }
+
+     .cont2{
+
+      display: flex;
+      justify-content: space-evenly;
+      margin-left: 13px;
+    }
+
+    .cont2 img{
+
+      width: 340px;
+      height: 350px;
+      margin-right: 12px;
+    }
+
+    .prodt2 h1{
+
+      font-size: 40px;
+      margin-right: -4px;
+    }
+
+
+    .prodt2 p{
+
+      font-size: 30px;
+      margin-right: -4px;
+    }
+ 
+ }
